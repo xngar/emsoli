@@ -14,10 +14,10 @@ const Header = () => {
         <Image src="/logo-emsoli.png" alt="" width={500} height={500} />
       </div>
       <div className="z-10 w-[50%]">
-        <p className="text-justify ">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, a
-          inventore aliquid dolor architecto fugiat omnis, possimus ratione qui
-          vel magni nobis nulla sint? Adipisci suscipit est incidunt autem et?
+        <p className="text-center text-2xl -mt-50 ">
+          EMSOLI es un Consorcio empresarial nacional que se enfoca a entregar
+          un soporte logístico integral a empresas del área de: · Minera ·
+          Construcción · Turismo · Comercialización
         </p>
       </div>
     </div>
