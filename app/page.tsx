@@ -13,6 +13,7 @@ export default function Home() {
         logo="/gira.png"
         color="#E76218"
         reverse={false}
+        vinculo="https://migira.cl/"
       />
       <Empresas
         imagen="/bg-once.jpg"
@@ -21,6 +22,7 @@ export default function Home() {
         logo="/logo-once-61.png"
         color="#E76218"
         reverse={true}
+        vinculo="https://once61.cl/"
       />
       <Empresas
         imagen="/bg-rental.jpg"
@@ -29,6 +31,7 @@ export default function Home() {
         logo="/logo_rental.png"
         color="#E76218"
         reverse={false}
+        vinculo="https://rentalspa.cl/"
       />
       <Empresas
         imagen="/bg-energy.jpg"
@@ -37,6 +40,7 @@ export default function Home() {
         logo="/logo_energy.png"
         color="#E76218"
         reverse={true}
+        vinculo=""
       />
       <Empresas
         imagen="/bg-gou.jpg"
@@ -45,6 +49,7 @@ export default function Home() {
         logo="/logo_gouap.png"
         color="#E76218"
         reverse={false}
+        vinculo=""
       />
       <Footer />
     </div>

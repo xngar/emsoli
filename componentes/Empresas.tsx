@@ -9,6 +9,7 @@ type EmpresasProps = {
   logo: string;
   color: string;
   reverse?: boolean;
+  vinculo: string;
 };
 
 const Empresas = ({
@@ -18,6 +19,7 @@ const Empresas = ({
   logo,
   color,
   reverse = false,
+  vinculo,
 }: EmpresasProps) => {
   return (
     <div
@@ -44,7 +46,7 @@ const Empresas = ({
         <p className="w-[500px] text-center">{descripcion}</p>
         <Link
           className="text-white bg-blue-950 rounded-full mt-8 p-2 w-[200px] flex justify-center items-center hover:bg-blue-900"
-          href="#"
+          href={vinculo}
         >
           Ir al sitio
         </Link>
