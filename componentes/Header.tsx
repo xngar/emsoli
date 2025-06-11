@@ -9,12 +9,12 @@ const Header = () => {
         backgroundImage: `url(/fondo-emsoli.jpg)`,
       }}
     >
-      <div className="absolute top-10 left-0 w-full h-full bg-gradient-to-t from-black to-transparent"></div>
+      <div className="absolute   md:top-10 left-0 w-full h-full bg-gradient-to-t from-black to-transparent"></div>
       <div className="pb-[200px] z-10">
         <Image src="/logo-emsoli.png" alt="" width={500} height={500} />
       </div>
       <div className="z-10 w-[50%]">
-        <p className="text-center text-2xl -mt-50 ">
+        <p className="text-center text-[20px] md:text-2xl -mt-50 ">
           EMSOLI es un Consorcio empresarial nacional que se enfoca a entregar
           un soporte logístico integral a empresas del área de: · Minera ·
           Construcción · Turismo · Comercialización

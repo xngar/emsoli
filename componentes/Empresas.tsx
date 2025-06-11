@@ -27,7 +27,7 @@ const Empresas = ({
         reverse ? "flex-row-reverse" : "flex-row"
       }`}
     >
-      <div className={`bg-[${color}] w-[80%] relative`}>
+      <div className={`bg-[${color}] flex w-[80%] relative`}>
         <Image
           src={imagen}
           layout="fill"
@@ -38,14 +38,14 @@ const Empresas = ({
         />
       </div>
       <div
-        className={`w-[60%] flex flex-col justify-center items-center`}
+        className={`md:w-[60%] w-[50%] flex flex-col justify-center items-center`}
         style={{ backgroundColor: color }}
       >
         <Image src={logo} alt="" width={200} height={200} />
         <h2 className="mt-4">{nombre}</h2>
-        <p className="w-[500px] text-center">{descripcion}</p>
+        <p className="w-[200px] text-center text-[12px] p-2">{descripcion}</p>
         <Link
-          className="text-white bg-blue-950 rounded-full mt-8 p-2 w-[200px] flex justify-center items-center hover:bg-blue-900"
+          className="text-white bg-blue-950 rounded-full mt-8 p-2 w-[150px] flex justify-center items-center hover:bg-blue-900"
           href={vinculo}
         >
           Ir al sitio
