@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import Empresas from "@/componentes/Empresas";
 import Footer from "@/componentes/Footer";
 import Header from "@/componentes/Header";
+import Clientes from "@/componentes/Clientes";
+import Menu from "@/componentes/Menu";
 
 const variants = {
   hidden: { opacity: 0, y: 100 },
@@ -12,6 +14,7 @@ const variants = {
 export default function Home() {
   return (
     <div>
+      <Menu />
       <Header />
       <motion.div
         initial="hidden"
@@ -25,7 +28,7 @@ export default function Home() {
           nombre=""
           descripcion="Programas turisticos Internacionales y Giras de Estudio"
           logo="/gira.png"
-          color="#E76218"
+          color="#ffffff"
           reverse={false}
           vinculo="https://migira.cl/"
         />
@@ -42,7 +45,7 @@ export default function Home() {
           nombre=""
           descripcion="Construcción de proyectos públicos y privados | Proyectos inmobiliarios"
           logo="/logo-once-61.png"
-          color="#E76218"
+          color="#ffffff"
           reverse={true}
           vinculo="https://once61.cl/"
         />
@@ -59,7 +62,7 @@ export default function Home() {
           nombre=""
           descripcion="Arriendos de Camionetas | Arriendo de Vans | Arriendo de Camiones Pluma | Arriendo de Camiones Aljibe | Arriendo de Camiones Tolva"
           logo="/logo_rental.png"
-          color="#E76218"
+          color="#ffffff"
           reverse={false}
           vinculo="https://rentalspa.cl/"
         />
@@ -76,7 +79,7 @@ export default function Home() {
           nombre=""
           descripcion="Venta de aguas y bebidas nutricionales"
           logo="/logo_energy.png"
-          color="#E76218"
+          color="#ffffff"
           reverse={true}
           vinculo=""
         />
@@ -93,11 +96,12 @@ export default function Home() {
           nombre=""
           descripcion="Venta de productos de construcción | Venta de neumáticos y accesorios para vehículos "
           logo="/logo_gouap.png"
-          color="#E76218"
+          color="#ffffff"
           reverse={false}
           vinculo=""
         />
       </motion.div>
+      <Clientes />
       <Footer />
     </div>
   );

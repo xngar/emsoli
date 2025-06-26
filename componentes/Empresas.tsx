@@ -42,8 +42,10 @@ const Empresas = ({
         style={{ backgroundColor: color }}
       >
         <Image src={logo} alt="" width={200} height={200} />
-        <h2 className="mt-4">{nombre}</h2>
-        <p className="w-[200px] text-center text-[12px] p-2">{descripcion}</p>
+        <h2 className="mt-4 ">{nombre}</h2>
+        <p className="w-[200px] md:w-[300px] text-center text-[12px] md:text-[16px] p-2 text-black">
+          {descripcion}
+        </p>
         <Link
           className="text-white bg-blue-950 rounded-full mt-8 p-2 w-[150px] flex justify-center items-center hover:bg-blue-900"
           href={vinculo}
