@@ -4,7 +4,7 @@ import Image from "next/image";
 const Menu = () => {
   const empresas = [
     {
-      nombre: "Gira",
+      nombre: "Mi Gira",
       url: "https://migira.cl/",
     },
     {
@@ -12,8 +12,16 @@ const Menu = () => {
       url: "https://once61.cl/",
     },
     {
-      nombre: "Rental",
-      url: "https://rentalchile.cl/",
+      nombre: "RentalSPA",
+      url: "https://rentalspa.cl/",
+    },
+    {
+      nombre: "Energy Sport",
+      url: "#",
+    },
+    {
+      nombre: "Gouap",
+      url: "#",
     },
   ];
 

@@ -43,7 +43,7 @@ const Empresas = ({
       >
         <Image src={logo} alt="" width={200} height={200} />
         <h2 className="mt-4 ">{nombre}</h2>
-        <p className="w-[200px] md:w-[300px] text-center text-[12px] md:text-[16px] p-2 text-black">
+        <p className="w-[200px] md:w-[300px] text-center text-[12px] md:text-[16px] p-2 text-gray-600">
           {descripcion}
         </p>
         <Link
