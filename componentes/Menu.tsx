@@ -8,11 +8,11 @@ const Menu = () => {
       url: "https://migira.cl/",
     },
     {
-      nombre: "Once61",
-      url: "https://once61.cl/",
+      nombre: "Marcuse",
+      url: "https://marcuse.cl/",
     },
     {
-      nombre: "RentalSPA",
+      nombre: "Rental",
       url: "https://rentalspa.cl/",
     },
     {
@@ -20,7 +20,7 @@ const Menu = () => {
       url: "#",
     },
     {
-      nombre: "Gouap",
+      nombre: "",
       url: "#",
     },
   ];

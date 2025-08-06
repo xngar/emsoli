@@ -44,7 +44,7 @@ export default function Home() {
           imagen="/bg-once.jpg"
           nombre=""
           descripcion="Construcción de proyectos públicos y privados | Proyectos inmobiliarios"
-          logo="/logo-once-61.png"
+          logo="/marcuse.jpg"
           color="#ffffff"
           reverse={true}
           vinculo="https://once61.cl/"
@@ -84,7 +84,7 @@ export default function Home() {
           vinculo=""
         />
       </motion.div>
-      <motion.div
+      {/* <motion.div
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -100,7 +100,7 @@ export default function Home() {
           reverse={false}
           vinculo=""
         />
-      </motion.div>
+      </motion.div> */}
       <Clientes />
       <Footer />
     </div>
